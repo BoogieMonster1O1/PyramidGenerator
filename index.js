@@ -22,8 +22,6 @@ function setTextAreaValue(value) {
     document.getElementById("outputp").innerHTML = value;
 }
 
-// Using chromium-only API because screw firefox users lmao
-
 function copyOutput() {
     navigator.clipboard.writeText(document.getElementById("outputp").value);
 }
