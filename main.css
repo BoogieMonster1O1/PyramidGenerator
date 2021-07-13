@@ -1,0 +1,11 @@
+#bpyramidify:hover {
+    cursor: grab
+}
+
+#bpyramidify:active {
+    cursor: grabbing
+}
+
+body {
+    background-color: lightgoldenrodyellow
+}

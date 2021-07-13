@@ -1,27 +1,15 @@
 <html>
     <head>
         <title>Pyramid Generator</title>
-        <style>
-            #bpyramidify:hover {
-                cursor: grab
-            }
-            #bpyramidify:active {
-                cursor: grabbing
-            }
-            body {
-                background-color: lightgoldenrodyellow
-            }
-        </style>
+        <link rel="stylesheet" href="main.css">
     </head>
-    
     <body><center>
         <h1>Pyramid Generator</h1>
         <h3>Github: <a href = "https://github.com/BoogieMonster1O1/PyramidGenerator">https://github.com/BoogieMonster1O1/PyramidGenerator</a></h3>
         <br>
         <input type = "text" id = "inputtext" size="50" placeholder="Enter your sentence here">
         <button id = "bpyramidify" type="button" onclick="pyramidify()">Pyramidify</button>
-        <br>
-        <br>
+        <br><br>
         <textarea id = "outputp" disabled = "true" rows="30" cols="60"></textarea>
         <br>
         <button id = "copytoclipboard" type = "button" onclick="copyOutput()">Copy Pyramid to Clipboard</button>
