@@ -23,5 +23,6 @@ function setTextAreaValue(value) {
 }
 
 function copyOutput() {
+    // using chromium-only api because fuck firefox users
     navigator.clipboard.writeText(document.getElementById(outputp).value());
 }
